@@ -2,6 +2,6 @@
 
 name = $PROGRAM_NAME
 
-print name
+puts name
 
 #Fin de l'exercice.

@@ -4,7 +4,7 @@ alphabet = ('a'..'z').to_a
 lettre = 10
 
 while lettre == 10
-    print alphabet.join[13..25]
+    puts alphabet.join[13..25]
     lettre = lettre + 1
 end 
 

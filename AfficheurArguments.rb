@@ -4,7 +4,7 @@ phrase = ["Je", "suis", "solide", "!"]
 mot = ""
 
 for mot in phrase
-    print "#{mot}\n"
+    puts "#{mot}"
 end
 
 #Fin de l'excercice.

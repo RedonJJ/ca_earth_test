@@ -5,9 +5,7 @@ alphabet = ('a'..'z').to_a
 lettre = ""
 
 for lettre in alphabet
-    print "#{lettre}"
-end 
-
-print "\n"
+    puts "#{lettre}"
+end
 
 #Fin de l'exercice.
