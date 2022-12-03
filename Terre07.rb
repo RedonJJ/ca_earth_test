@@ -11,3 +11,5 @@ def taille_chaine()
 end
 
 taille_chaine()
+
+#Fin de l'exercice.
