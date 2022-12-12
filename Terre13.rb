@@ -9,7 +9,7 @@ def entre_deux()
     c = gets.chomp
     array = a, b, c
     puts "Calcul des informations en cours..."
-    a = Inteeger(a) rescue false
+    a = Integer(a) rescue false
     if a == false then
         puts "Veuillez saisir uniquement des nombres." 
     end
@@ -39,3 +39,5 @@ def entre_deux()
 end
 
 entre_deux()
+
+#Fin de l'exercice.
