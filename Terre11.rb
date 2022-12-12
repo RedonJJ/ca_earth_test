@@ -1,6 +1,6 @@
 #Créer un programme qui transforme une heure affichée en format 24h en une heure affiché en format 12H.
 
-def changement_heure()
+def changement_heure_24_to_12()
     print "Choisissez une heure: "
     heure = gets.chomp.to_s
     print "Choisissez une minute: "
@@ -16,7 +16,7 @@ def changement_heure()
     elsif !("00".."23").include? heure then
         puts "L'heure doit être comprise entre 00 et 23."
     elsif !("00".."59").include? minute then
-        puts "La minute doit être compris entre 00 et 59."
+        puts "La minute doit être comprise entre 00 et 59."
     else
         puts "Il est: " + heure + ":" + minute
     end 
@@ -27,4 +27,6 @@ def changement_heure()
     end
 end
 
-changement_heure()
+changement_heure_24_to_12()
+
+#Fin de l'exercice.
