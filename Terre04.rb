@@ -1,18 +1,20 @@
 #Créer un programme qui permet de déterminer si l'argument donné est un entier pair ou impair, l'exercice doit aussi gérer les nombres entiers négatifs.
 
-def pair_ou_impair()
-    print "Choisissez un entier: "
-    nombre = gets.chomp
-    nombre = Integer(nombre) rescue false
-    if nombre == false then
+print "Choisissez un entier: "
+number = gets.chomp
+number = Integer(number) rescue false
+
+#Méthode pair ou impair.
+def even_or_odd(nb)
+    if nb == false then
         puts "Tu ne me la mettras pas à l'envers"
-    elsif nombre % 2 == 0 then
-        puts "#{nombre} est pair."
+    elsif nb % 2 == 0 then
+        puts "#{nb} est pair."
     else 
-        puts "#{nombre} est impair."
+        puts "#{nb} est impair."
     end
 end
 
-pair_ou_impair()
+even_or_odd(number)
 
 #Fin de l'exercice.

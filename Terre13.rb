@@ -1,13 +1,16 @@
 #Créer un programme qui prend en paramète trois entiers et affiche la valeur du milieu.
 
-def entre_deux()
-    print "Choisissez le premier nombre: "
-    a = gets.chomp
-    print "Choisissez le deuxième nombre: "
-    b = gets.chomp
-    print "Choisissez le troisième nombre: "
-    c = gets.chomp
-    array = a, b, c
+print "Choisissez le premier nombre: "
+first = gets.chomp
+print "Choisissez le deuxième nombre: "
+second = gets.chomp
+print "Choisissez le troisième nombre: "
+third = gets.chomp
+
+array = first, second, third
+
+#Méthode permettant d'afficher parmis trois entier celui ayant la valeur du milieu.
+def between_two(a, b, c) 
     puts "Calcul des informations en cours..."
     a = Integer(a) rescue false
     if a == false then
@@ -38,6 +41,6 @@ def entre_deux()
     end
 end
 
-entre_deux()
+between_two(first, second, third)
 
 #Fin de l'exercice.
